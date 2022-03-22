@@ -1,0 +1,55 @@
+<!-- q:)->-</: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+        
+    
+        <H1>Calculadora de sistemas de ecuaciones lineales</H1>
+
+        <br>
+        
+        <font face="arial, verdana">
+            <p>Un saludito vespertino, este es un programa que resuelve sistemas de ecuaciones lineales n*m</p>
+
+        <p>Por favor ingresa el número de ecuaciones</p>
+        <input type="number" id="filas">
+
+        <p>Por favor Ingresa el número de incógnitas</p>
+        <input type="number" id="columnas">
+
+        <input type="button" value="crear sistema" onclick="crear()">
+        
+        
+        <div id="Tables" ></div>
+        <br>
+        <br>
+        <div id="Resultados2"></div>
+
+        <br>
+        <br>
+        <div id="Resultados3" ></div>
+        
+    
+        <br>
+        <br>
+        <div id="Resultados"></div>
+        <div id="Soluciones"></div>
+        <div id="Imprimir"></div>
+        </font>
+
+        
+    
+
+    <script src="jsm/crearMatriz.js"></script>
+    
+
+    <script src="jsm/validarNumeros.js"></script>
+
+</body>
+</html>
